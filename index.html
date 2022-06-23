@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Timer</title>
+</head>
+<body class="body">
+    <div class="wrapper">
+        <div class="clocks" id="timer">
+            <span id="hours"></span>
+            <span>:</span>
+            <span id="minutes"></span>
+            <span>:</span>
+            <span id="seconds"></span>
+            <span>.</span>
+            <span id="miliseconds"></span>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="btn_turn" hidden class="btn turn_left">Развернуть</button>
+        <button class="btn" id="start"></button>
+        <button id="btn_save" hidden class="btn result_right">Сохранить результат</button>
+        <button id="btn_reset" hidden class="btn reset">Обнулить</button>
+    </div>
+    <div id="results" class="results"></div>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
